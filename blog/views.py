@@ -1,7 +1,7 @@
-from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
-def mass(request):
+
+def message(request):
     return HttpResponse('Это мой первый проект на Django')
-def emodji(request):
+
+def emoji(request):
     return HttpResponse('😀😗💀')
